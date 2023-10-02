@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-aepd
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-bundle-tenant/appstudio/dc-metro-map-aepd@sha256:79b70b10cf5ee7dc4d1ff0c2285662236e96f1a15c7f0cfbb9cd65bc85e97457
         name: my-nodejs
         ports:
         - containerPort: 3001
